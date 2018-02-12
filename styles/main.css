@@ -176,6 +176,7 @@ td:nth-child(2) {
 .problem_content {
     display: none;
     border: 2px solid #dddddd;
+    padding: 10px;
 }
 
 .problem_tab {

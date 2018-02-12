@@ -1,0 +1,8 @@
+*
+!imgs
+!styles
+!views
+!imgs/*
+!styles/*
+!views/*
+!.gitignore
