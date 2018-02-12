@@ -1,0 +1,224 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/ */
+
+img {
+    margin: 10px;
+}
+
+#wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#wrapper > div {
+    padding: 16px;
+}
+
+.register {
+    border: 0;
+    font-family: Arial;
+    text-decoration: none;
+    color: #ffffff;
+    background: #3498db;
+}
+
+.register:hover {
+    background: #3cb0fd;
+}
+
+#logo {
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    background-image: url('../imgs/2000x1000.png');
+    background-position: center;
+    background-size: cover;
+
+    padding: 0 !important;
+
+    display: flex;
+    justify-content: center;
+}
+
+#logo > .register {
+    font-size: 40px;
+    padding: 16px 24px;
+    margin: auto;
+}
+
+#header {
+    width: 100%;
+    position: sticky;
+    top: 0;
+    background: black;
+    height: 56px;
+    padding: 0 !important;
+}
+
+#header > .register {
+    float: right;
+    margin: 8px;
+    padding: 8px 16px;
+    font-size: 20px;
+}
+
+#header > img {
+    margin: 0;
+}
+
+
+.content {
+    width: 80%;
+    font-family: Arial;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.content h3 {
+    padding-top: 16px;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 64px;
+    text-decoration: none;
+}
+
+
+.content > table,
+.content > table * {
+    border: 1px solid #dddddd;
+    min-width: 280px;
+}
+
+tr:nth-child(2n-1) {
+    background-color: #f2f2f2;
+}
+
+th {
+    padding: 16px;
+    background-color: #3498db;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+td {
+    padding: 8px;
+}
+
+td:nth-child(2) {
+    text-align: right;
+}
+
+#sponsors, .section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-grow: 2;
+}
+
+.problem_content {
+    display: none;
+    border: 2px solid #dddddd;
+}
+
+.problem_tab {
+    display: none;
+}
+
+.problem_tab + label {
+    display: inline-block;
+    border: 2px solid #dddddd;
+    border-top: 4px solid #3498db;
+    padding: 8px 16px;
+}
+
+.problem_tab:checked + label {
+    border-bottom: none;
+    border-top: 4px solid #3cb0fd;
+}
+
+
+.problem_tab:nth-of-type(1):checked ~ .problem_content:nth-of-type(1),
+.problem_tab:nth-of-type(2):checked ~ .problem_content:nth-of-type(2),
+.problem_tab:nth-of-type(3):checked ~ .problem_content:nth-of-type(3) {
+    display: block;
+}
+
+@media (max-width: 992px) {
+
+    #wrapper {
+        display: block;
+    }
+
+    #about,
+    #workshops,
+    #timetable,
+    #sections {
+        margin: 0 16px;
+    }
+
+    .content {
+        width: auto;
+    }
+
+    .content > table {
+        margin: 0 auto;
+    }
+}
