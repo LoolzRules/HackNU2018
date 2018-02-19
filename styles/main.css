@@ -1,3 +1,35 @@
+:root {
+    --main-black: #222222;
+    --main-accent: #3498db;
+    --main-accent-hover: #3cb0fd;
+    --light-gray: #eeeeee;
+    --darker-gray: #dddddd;
+}
+
+@font-face {
+    font-family: OpenSans;
+    src: url("../fonts/OpenSans-Regular.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: Montserrat;
+    font-style: normal;
+    src: url("../fonts/Montserrat-Bold.otf") format('truetype');
+}
+
+@font-face {
+    font-family: Montserrat;
+    font-style: italic;
+    src: url("../fonts/Montserrat-ExtraBoldItalic.otf") format('truetype');
+}
+
+@font-face {
+    font-family: Montserrat;
+    font-style: unset;
+    src: url("../fonts/Montserrat-Medium.otf") format('truetype');
+}
+
+
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
@@ -21,7 +53,7 @@ time, mark, audio, video {
     border: 0;
     font-size: 100%;
     font: inherit;
-    vertical-align: baseline;
+    vertical-align: center;
 }
 
 /* HTML5 display-role reset for older browsers */
@@ -31,7 +63,8 @@ footer, header, hgroup, menu, nav, section {
 }
 
 body {
-    line-height: 1;
+    line-height: normal;
+    color: var(--main-black);
 }
 
 ol, ul {
@@ -55,6 +88,20 @@ table {
 
 /* http://meyerweb.com/eric/tools/css/reset/ */
 
+body, input {
+    font-family: OpenSans !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Montserrat;
+    font-style: normal;
+}
+
+.boldHeader {
+    font-family: Montserrat;
+    font-style: italic;
+}
+
 img {
     margin: 10px;
 }
@@ -64,6 +111,7 @@ img {
     flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
+    background-color: var(--light-gray);
 }
 
 #wrapper > div {
@@ -72,22 +120,24 @@ img {
 
 .register {
     border: 0;
-    font-family: Arial;
     text-decoration: none;
-    color: #ffffff;
-    background: #3498db;
+    text-transform: uppercase;
+    color: var(--light-gray);
+    background: var(--main-accent);
+    cursor: pointer;
+    border-radius: 8px;
 }
 
 .register:hover {
-    background: #3cb0fd;
+    background: var(--main-accent-hover);
 }
 
 #logo {
     height: 100vh;
     width: 100%;
     background-color: black;
-    background-image: url('../imgs/2000x1000.png');
-    background-position: center;
+    background-image: url('../imgs/Header-Recovered.jpg');
+    background-position: center top;
     background-size: cover;
 
     padding: 0 !important;
@@ -96,7 +146,19 @@ img {
     justify-content: center;
 }
 
-#logo > .register {
+#logo > div {
+    margin: auto;
+}
+
+#logo .boldHeader {
+    display: block;
+    font-size: 10vw;
+    color: white;
+    text-align: center;
+}
+
+#logo .register {
+    display: block;
     font-size: 40px;
     padding: 16px 24px;
     margin: auto;
@@ -106,33 +168,37 @@ img {
     width: 100%;
     position: sticky;
     top: 0;
-    background: black;
     height: 56px;
     padding: 0 !important;
+    background: var(--main-black);
+}
+
+#header > .boldHeader {
+    display: inline;
+    font-size: 40px;
+    color: var(--light-gray);
+    margin-left: 10%;
 }
 
 #header > .register {
     float: right;
-    margin: 8px;
+    margin: 6px;
     padding: 8px 16px;
     font-size: 20px;
+    margin-right: 10%;
 }
 
-#header > img {
-    margin: 0;
-}
 
 
 .content {
     width: 80%;
-    font-family: Arial;
     font-size: 20px;
     text-decoration: none;
+    background-color: white;
 }
 
 .content h3 {
     padding-top: 16px;
-    font-family: Arial;
     font-weight: bold;
     font-size: 40px;
     line-height: 64px;
@@ -142,27 +208,35 @@ img {
 
 .content > table,
 .content > table * {
-    border: 1px solid #dddddd;
-    min-width: 280px;
+    border: 1px solid var(--darker-gray);
+    width: 60%;
 }
 
-tr:nth-child(2n-1) {
-    background-color: #f2f2f2;
+.content > table {
+    margin: 0 auto;
 }
 
-th {
+.content > table > thead {
+    margin: 0 auto;
+}
+
+.content table tr:nth-child(2n-1) {
+    background-color: var(--light-gray);
+}
+
+.content table th {
     padding: 16px;
-    background-color: #3498db;
-    color: #ffffff;
+    background-color: var(--main-accent);
+    color: var(--light-gray);
     font-size: 24px;
     font-weight: bold;
 }
 
-td {
+.content table td {
     padding: 8px;
 }
 
-td:nth-child(2) {
+.content table td:nth-child(2) {
     text-align: right;
 }
 
@@ -173,10 +247,18 @@ td:nth-child(2) {
     flex-grow: 2;
 }
 
+.section {
+    margin-top: 32px;
+}
+
 .problem_content {
     display: none;
-    border: 2px solid #dddddd;
-    padding: 10px;
+    border: 2px solid var(--darker-gray);
+    background-color: var(--light-gray);
+    padding: 16px;
+
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
 }
 
 .problem_tab {
@@ -185,27 +267,110 @@ td:nth-child(2) {
 
 .problem_tab + label {
     display: inline-block;
-    border: 2px solid #dddddd;
-    border-top: 4px solid #3498db;
+    background-color: var(--light-gray);
     padding: 8px 16px;
+
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    cursor: pointer;
+
+    font-family: Montserrat;
+    font-style: unset;
+}
+
+.problem_tab + label:hover {
+    background-color: var(--darker-gray);
 }
 
 .problem_tab:checked + label {
-    border-bottom: none;
-    border-top: 4px solid #3cb0fd;
+    background-color: var(--main-accent);
+    cursor: default;
+    color: var(--light-gray);
 }
 
+.section_prizes {
+    margin-top: 16px;
+}
 
 .problem_tab:nth-of-type(1):checked ~ .problem_content:nth-of-type(1),
 .problem_tab:nth-of-type(2):checked ~ .problem_content:nth-of-type(2),
-.problem_tab:nth-of-type(3):checked ~ .problem_content:nth-of-type(3) {
+.problem_tab:nth-of-type(3):checked ~ .problem_content:nth-of-type(3),
+.problem_tab:nth-of-type(4):checked ~ .problem_content:nth-of-type(4),
+.problem_tab:nth-of-type(5):checked ~ .problem_content:nth-of-type(5),
+.problem_tab:nth-of-type(6):checked ~ .problem_content:nth-of-type(6) {
     display: block;
+}
+
+#footer {
+    /*background-image: url("../imgs/Footer.svg");*/
+    background-color: #7b1fa2;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    padding-left: 0!important;
+    padding-right: 0!important;
+
+    width: 100%;
+    height: auto;
+}
+
+#footer > table {
+    float: left;
+    margin-left: 10%;
+    color: var(--light-gray);
+}
+
+
+#footer > table > tbody > tr > td:nth-child(1) {
+    padding-right: 16px;
+}
+
+#footer > table > tbody > tr > td:nth-child(2),
+#footer > table > tbody > tr > td:nth-child(3),
+#footer > table > tbody > tr > td:nth-child(4) {
+    background-image: url("../imgs/Icons.png");
+    background-size: 32px 96px;
+    background-repeat: no-repeat;
+    height: 32px;
+    width: 32px;
+    border: 12px solid #7b1fa2;
+}
+
+#footer > table > tbody > tr > td:nth-child(2) {
+    background-position: 0 1px;
+}
+#footer > table > tbody > tr > td:nth-child(3) {
+    background-position: 0 -32px;
+}
+#footer > table > tbody > tr > td:nth-child(4) {
+    background-position: 0 -64px;
+}
+
+#footer > table > tbody > tr > td > a {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+#creators {
+    float: right;
+    width: auto;
+    margin-right: 10%;
+    color: var(--light-gray);
 }
 
 @media (max-width: 992px) {
 
     #wrapper {
         display: block;
+    }
+
+    #header > .boldHeader {
+        margin-left: 16px;
+    }
+
+    #header > .register {
+        margin-right: 16px !important;
     }
 
     #about,
@@ -220,6 +385,59 @@ td:nth-child(2) {
     }
 
     .content > table {
-        margin: 0 auto;
+        width: 100%;
+    }
+
+    #footer {
+        height: 100%;
+    }
+
+    #footer > table {
+        margin-left: 16px;
+    }
+
+    #footer > div#creators {
+        margin-right: 16px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    #logo .register {
+        font-size: 28px;
+        padding: 8px 12px;
+    }
+
+    #header {
+        height: 40px;
+    }
+
+    #header > .boldHeader {
+        font-size: 28px;
+        line-height: 40px;
+    }
+
+    #header > .register {
+        margin: 4px;
+        font-size: 18px;
+        padding: 4px 12px;
+    }
+
+    .content {
+        font-size: 16px;
+    }
+
+    .content h3 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    .content img {
+        min-width: 200px;
+        height: auto;
+    }
+
+    .content table {
+        font-size: 16px;
     }
 }
