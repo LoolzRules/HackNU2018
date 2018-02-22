@@ -1,11 +1,5 @@
-*
-!fonts
-!imgs
-!styles
-!views
-!fonts/*
-!imgs/*
-!styles/*
-!views/*
-!.gitignore
-imgs/Footer.jpg
+.idea
+*.log
+node_modules
+package-lock.json
+views/main.html

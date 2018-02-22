@@ -1,0 +1,88 @@
+doctype html
+html(lang='en')
+    head
+        meta(charset='UTF-8')
+        meta(name='viewport', content='initial-scale=1, maximum-scale=1')
+        title HackNU 2018
+        link(type='text/css', rel='stylesheet', href='../styles/main.css')
+    body
+        #wrapper
+            #logo
+                div
+                    h1.boldHeader ⟨HackNU⟩
+                    input.register(type='button', value='Register')
+            #header
+                h2.boldHeader ⟨HackNU⟩
+                input.register(type='button', value='Register')
+            #about.content
+                h3 About
+                each par in content_about
+                    p= par
+                #sponsors
+                    each elem in content_sections.sections
+                        img(src= elem.owner)
+            #workshops.content
+                h3 Workshops
+                table
+                    tbody
+                        each workshop in content_workshops
+                            tr
+                                td= workshop.date
+                                td= workshop.name
+            #timetable.content
+                h3 Timetable
+                each table in content_timetable
+                    table.days
+                        thead
+                            tr
+                                th(colspan='2')= table.date
+                        tbody
+                            each time_event in table.timetable
+                                tr
+                                    td= time_event.time
+                                    td= time_event.name
+            #sections.content
+                #section_header
+                    h3 Sections
+                p= content_sections.info
+
+                - for ( var i=1; i<=content_sections.sections.length; i++ )
+                    - var section = content_sections.sections[i-1];
+                    .section
+                        img.section_owner(src=section.owner)
+
+                        .section_problems
+                            - for ( var j=1; j<=section.problems.length; j++ )
+                                - var problem = section.problems[j-1];
+                                if j===1
+                                    input.problem_tab(type='radio', name='tabs'+i, checked='' id="p_" + i + "_" + j)
+                                else
+                                    input.problem_tab(type='radio', name='tabs'+i, id="p_" + i + "_" + j)
+                                label(for="p_" + i + "_" + j)= problem.name
+
+                            - for ( j=1; j<=section.problems.length; j++ )
+                                - var problem = section.problems[j-1];
+                                .problem_content
+                                    each paragraph in problem.content
+                                        p= paragraph
+                        .section_prizes
+                            p= section.prizes
+            #footer
+                table
+                    tbody
+                        tr
+                            td
+                                h6 NU ACM Student Chapter:
+                            td
+                                a(href='https://vk.com/nuacm')
+                            td
+                                a(href='https://www.instagram.com/acmsc_nu/')
+                        tr
+                            td
+                                h6 NU IET On Campus:
+                            td
+                                a(href='https://vk.com/nu_iet')
+                            td
+                                a(href='https://www.instagram.com/nu_iet/')
+                #creators
+                    h5 Developed by NU ACM Student Chapter

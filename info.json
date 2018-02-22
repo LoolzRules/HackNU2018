@@ -1,0 +1,181 @@
+{
+  "content_about": [
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mattis erat a nisi dignissim, vel lacinia quam sollicitudin. Etiam ut risus sed risus egestas tristique id in erat. Aliquam id condimentum tellus, sed scelerisque quam. In ut est non elit finibus facilisis. Sed sed turpis purus. Aliquam eu arcu vitae sapien vulputate interdum eget fringilla turpis. Aliquam lobortis libero vel lectus egestas luctus. Morbi egestas vitae tellus quis condimentum. Sed blandit tempor metus, vitae fringilla ipsum dapibus in. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi ut mi suscipit, auctor orci sed, feugiat magna. Etiam ut venenatis sapien.",
+    "Vestibulum tristique mollis dolor eget consequat. Fusce viverra finibus neque eget lobortis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean volutpat enim quam, eu dignissim metus faucibus laoreet. Quisque risus erat, vestibulum a erat quis, egestas pulvinar enim. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc nulla turpis, fermentum id iaculis a, iaculis id mauris. Vivamus nibh mauris, condimentum in placerat eu, mattis vitae erat. Vestibulum blandit ultricies mattis."
+  ],
+  "content_workshops": [
+    {
+      "name": "Workshop #1",
+      "date": "Feb 25"
+    },
+    {
+      "name": "Workshop #2",
+      "date": "Mar 11"
+    },
+    {
+      "name": "Workshop #3",
+      "date": "Mar 18"
+    }
+  ],
+  "content_timetable": [
+    {
+      "date": "Day 1 - Mar 31",
+      "timetable": [
+        {
+          "time": "11.00 - 12.00",
+          "name": "Registration"
+        },
+        {
+          "time": "12.00 - 13:00",
+          "name": "Opening"
+        },
+        {
+          "time": "13.00 - 00:00",
+          "name": "Coding"
+        }
+      ]
+    },
+    {
+      "date": "Day 1 - Mar 31",
+      "timetable": [
+        {
+          "time": "00.00 - 13.00",
+          "name": "Coding"
+        },
+        {
+          "time": "13.00 - 15:00",
+          "name": "Presentations"
+        },
+        {
+          "time": "15.00 - 15:30",
+          "name": "Break"
+        },
+        {
+          "time": "15.30 - 16:00",
+          "name": "Judge time"
+        },
+        {
+          "time": "16.00 - 16:30",
+          "name": "Closing"
+        }
+      ]
+    }
+  ],
+  "content_sections": {
+    "info": "Participants are allowed to attend only to one problem at the same time.",
+    "sections": [
+      {
+        "name": "ZeroToOneLabs",
+        "owner": "../imgs/0to1labs.png",
+        "problems": [
+          {
+            "name": "ZeroToOneLabs 1",
+            "content": [
+              "FIRST Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mattis erat a nisi dignissim, vel lacinia quam sollicitudin. Etiam ut risus sed risus egestas tristique id in erat. Aliquam id condimentum tellus, sed scelerisque quam. In ut est non elit finibus facilisis. Sed sed turpis purus. Aliquam euarcu vitae sapien vulputate interdum eget fringilla turpis. Aliquam lobortis libero vel lectus egestas luctus.Morbi egestas vitae tellus quis condimentum. Sed blandit tempor metus, vitae fringilla ipsum dapibus in.Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi ut misuscipit, auctor orci sed, feugiat magna. Etiam ut venenatis sapien.",
+              "FIRST Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mattis erat a nisi dignissim, vel lacinia quam sollicitudin. Etiam ut risus sed risus egestas tristique id in erat. Aliquam id condimentum tellus, sed scelerisque quam. In ut est non elit finibus facilisis. Sed sed turpis purus. Aliquam euarcu vitae sapien vulputate interdum eget fringilla turpis. Aliquam lobortis libero vel lectus egestas luctus.Morbi egestas vitae tellus quis condimentum. Sed blandit tempor metus, vitae fringilla ipsum dapibus in.Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi ut misuscipit, auctor orci sed, feugiat magna. Etiam ut venenatis sapien."
+            ]
+          },
+          {
+            "name": "ZeroToOneLabs 2",
+            "content": [
+              "SECOND Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mattis erat a nisi dignissim, vel lacinia quam sollicitudin. Etiam ut risus sed risus egestas tristique id in erat. Aliquam id condimentum tellus, sed scelerisque quam. In ut est non elit finibus facilisis. Sed sed turpis purus. Aliquam euarcu vitae sapien vulputate interdum eget fringilla turpis. Aliquam lobortis libero vel lectus egestas luctus.Morbi egestas vitae tellus quis condimentum. Sed blandit tempor metus, vitae fringilla ipsum dapibus in.Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi ut misuscipit, auctor orci sed, feugiat magna. Etiam ut venenatis sapien.",
+              "SECOND Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mattis erat a nisi dignissim, vel lacinia quam sollicitudin. Etiam ut risus sed risus egestas tristique id in erat. Aliquam id condimentum tellus, sed scelerisque quam. In ut est non elit finibus facilisis. Sed sed turpis purus. Aliquam euarcu vitae sapien vulputate interdum eget fringilla turpis. Aliquam lobortis libero vel lectus egestas luctus.Morbi egestas vitae tellus quis condimentum. Sed blandit tempor metus, vitae fringilla ipsum dapibus in.Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi ut misuscipit, auctor orci sed, feugiat magna. Etiam ut venenatis sapien."
+            ]
+          },
+          {
+            "name": "ZeroToOneLabs 3",
+            "content": [
+              "THIRD Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mattis erat a nisi dignissim, vel lacinia quam sollicitudin. Etiam ut risus sed risus egestas tristique id in erat. Aliquam id condimentum tellus, sed scelerisque quam. In ut est non elit finibus facilisis. Sed sed turpis purus. Aliquam euarcu vitae sapien vulputate interdum eget fringilla turpis. Aliquam lobortis libero vel lectus egestas luctus.Morbi egestas vitae tellus quis condimentum. Sed blandit tempor metus, vitae fringilla ipsum dapibus in.Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi ut misuscipit, auctor orci sed, feugiat magna. Etiam ut venenatis sapien.",
+              "THIRD Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mattis erat a nisi dignissim, vel lacinia quam sollicitudin. Etiam ut risus sed risus egestas tristique id in erat. Aliquam id condimentum tellus, sed scelerisque quam. In ut est non elit finibus facilisis. Sed sed turpis purus. Aliquam euarcu vitae sapien vulputate interdum eget fringilla turpis. Aliquam lobortis libero vel lectus egestas luctus.Morbi egestas vitae tellus quis condimentum. Sed blandit tempor metus, vitae fringilla ipsum dapibus in.Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi ut misuscipit, auctor orci sed, feugiat magna. Etiam ut venenatis sapien."
+            ]
+          }
+        ],
+        "prizes": "ZeroToOneLabs prize"
+      },
+      {
+        "name": "Carca",
+        "owner": "../imgs/caica.png",
+        "problems": [
+          {
+            "name": "Carca 1",
+            "content": [
+              "FIRST Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mattis erat a nisi dignissim, vel lacinia quam sollicitudin. Etiam ut risus sed risus egestas tristique id in erat. Aliquam id condimentum tellus, sed scelerisque quam. In ut est non elit finibus facilisis. Sed sed turpis purus. Aliquam euarcu vitae sapien vulputate interdum eget fringilla turpis. Aliquam lobortis libero vel lectus egestas luctus.Morbi egestas vitae tellus quis condimentum. Sed blandit tempor metus, vitae fringilla ipsum dapibus in.Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi ut misuscipit, auctor orci sed, feugiat magna. Etiam ut venenatis sapien.",
+              "FIRST Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mattis erat a nisi dignissim, vel lacinia quam sollicitudin. Etiam ut risus sed risus egestas tristique id in erat. Aliquam id condimentum tellus, sed scelerisque quam. In ut est non elit finibus facilisis. Sed sed turpis purus. Aliquam euarcu vitae sapien vulputate interdum eget fringilla turpis. Aliquam lobortis libero vel lectus egestas luctus.Morbi egestas vitae tellus quis condimentum. Sed blandit tempor metus, vitae fringilla ipsum dapibus in.Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi ut misuscipit, auctor orci sed, feugiat magna. Etiam ut venenatis sapien."
+            ]
+          },
+          {
+            "name": "Carca 2",
+            "content": [
+              "SECOND Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mattis erat a nisi dignissim, vel lacinia quam sollicitudin. Etiam ut risus sed risus egestas tristique id in erat. Aliquam id condimentum tellus, sed scelerisque quam. In ut est non elit finibus facilisis. Sed sed turpis purus. Aliquam euarcu vitae sapien vulputate interdum eget fringilla turpis. Aliquam lobortis libero vel lectus egestas luctus.Morbi egestas vitae tellus quis condimentum. Sed blandit tempor metus, vitae fringilla ipsum dapibus in.Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi ut misuscipit, auctor orci sed, feugiat magna. Etiam ut venenatis sapien.",
+              "SECOND Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mattis erat a nisi dignissim, vel lacinia quam sollicitudin. Etiam ut risus sed risus egestas tristique id in erat. Aliquam id condimentum tellus, sed scelerisque quam. In ut est non elit finibus facilisis. Sed sed turpis purus. Aliquam euarcu vitae sapien vulputate interdum eget fringilla turpis. Aliquam lobortis libero vel lectus egestas luctus.Morbi egestas vitae tellus quis condimentum. Sed blandit tempor metus, vitae fringilla ipsum dapibus in.Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi ut misuscipit, auctor orci sed, feugiat magna. Etiam ut venenatis sapien."
+            ]
+          },
+          {
+            "name": "Carca 3",
+            "content": [
+              "THIRD Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mattis erat a nisi dignissim, vel lacinia quam sollicitudin. Etiam ut risus sed risus egestas tristique id in erat. Aliquam id condimentum tellus, sed scelerisque quam. In ut est non elit finibus facilisis. Sed sed turpis purus. Aliquam euarcu vitae sapien vulputate interdum eget fringilla turpis. Aliquam lobortis libero vel lectus egestas luctus.Morbi egestas vitae tellus quis condimentum. Sed blandit tempor metus, vitae fringilla ipsum dapibus in.Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi ut misuscipit, auctor orci sed, feugiat magna. Etiam ut venenatis sapien.",
+              "THIRD Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mattis erat a nisi dignissim, vel lacinia quam sollicitudin. Etiam ut risus sed risus egestas tristique id in erat. Aliquam id condimentum tellus, sed scelerisque quam. In ut est non elit finibus facilisis. Sed sed turpis purus. Aliquam euarcu vitae sapien vulputate interdum eget fringilla turpis. Aliquam lobortis libero vel lectus egestas luctus.Morbi egestas vitae tellus quis condimentum. Sed blandit tempor metus, vitae fringilla ipsum dapibus in.Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi ut misuscipit, auctor orci sed, feugiat magna. Etiam ut venenatis sapien."
+            ]
+          }
+        ],
+        "prizes": "Carca prize"
+      },
+      {
+        "name": "Chocolife",
+        "owner": "../imgs/choco.png",
+        "problems": [
+          {
+            "name": "Chocolife 1",
+            "content": [
+              "FIRST Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mattis erat a nisi dignissim, vel lacinia quam sollicitudin. Etiam ut risus sed risus egestas tristique id in erat. Aliquam id condimentum tellus, sed scelerisque quam. In ut est non elit finibus facilisis. Sed sed turpis purus. Aliquam euarcu vitae sapien vulputate interdum eget fringilla turpis. Aliquam lobortis libero vel lectus egestas luctus.Morbi egestas vitae tellus quis condimentum. Sed blandit tempor metus, vitae fringilla ipsum dapibus in.Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi ut misuscipit, auctor orci sed, feugiat magna. Etiam ut venenatis sapien.",
+              "FIRST Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mattis erat a nisi dignissim, vel lacinia quam sollicitudin. Etiam ut risus sed risus egestas tristique id in erat. Aliquam id condimentum tellus, sed scelerisque quam. In ut est non elit finibus facilisis. Sed sed turpis purus. Aliquam euarcu vitae sapien vulputate interdum eget fringilla turpis. Aliquam lobortis libero vel lectus egestas luctus.Morbi egestas vitae tellus quis condimentum. Sed blandit tempor metus, vitae fringilla ipsum dapibus in.Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi ut misuscipit, auctor orci sed, feugiat magna. Etiam ut venenatis sapien."
+            ]
+          },
+          {
+            "name": "Chocolife 2",
+            "content": [
+              "SECOND Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mattis erat a nisi dignissim, vel lacinia quam sollicitudin. Etiam ut risus sed risus egestas tristique id in erat. Aliquam id condimentum tellus, sed scelerisque quam. In ut est non elit finibus facilisis. Sed sed turpis purus. Aliquam euarcu vitae sapien vulputate interdum eget fringilla turpis. Aliquam lobortis libero vel lectus egestas luctus.Morbi egestas vitae tellus quis condimentum. Sed blandit tempor metus, vitae fringilla ipsum dapibus in.Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi ut misuscipit, auctor orci sed, feugiat magna. Etiam ut venenatis sapien.",
+              "SECOND Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mattis erat a nisi dignissim, vel lacinia quam sollicitudin. Etiam ut risus sed risus egestas tristique id in erat. Aliquam id condimentum tellus, sed scelerisque quam. In ut est non elit finibus facilisis. Sed sed turpis purus. Aliquam euarcu vitae sapien vulputate interdum eget fringilla turpis. Aliquam lobortis libero vel lectus egestas luctus.Morbi egestas vitae tellus quis condimentum. Sed blandit tempor metus, vitae fringilla ipsum dapibus in.Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi ut misuscipit, auctor orci sed, feugiat magna. Etiam ut venenatis sapien."
+            ]
+          },
+          {
+            "name": "Chocolife 3",
+            "content": [
+              "THIRD Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mattis erat a nisi dignissim, vel lacinia quam sollicitudin. Etiam ut risus sed risus egestas tristique id in erat. Aliquam id condimentum tellus, sed scelerisque quam. In ut est non elit finibus facilisis. Sed sed turpis purus. Aliquam euarcu vitae sapien vulputate interdum eget fringilla turpis. Aliquam lobortis libero vel lectus egestas luctus.Morbi egestas vitae tellus quis condimentum. Sed blandit tempor metus, vitae fringilla ipsum dapibus in.Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi ut misuscipit, auctor orci sed, feugiat magna. Etiam ut venenatis sapien.",
+              "THIRD Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mattis erat a nisi dignissim, vel lacinia quam sollicitudin. Etiam ut risus sed risus egestas tristique id in erat. Aliquam id condimentum tellus, sed scelerisque quam. In ut est non elit finibus facilisis. Sed sed turpis purus. Aliquam euarcu vitae sapien vulputate interdum eget fringilla turpis. Aliquam lobortis libero vel lectus egestas luctus.Morbi egestas vitae tellus quis condimentum. Sed blandit tempor metus, vitae fringilla ipsum dapibus in.Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi ut misuscipit, auctor orci sed, feugiat magna. Etiam ut venenatis sapien."
+            ]
+          }
+        ],
+        "prizes": "Chocolife prize"
+      },
+      {
+        "name": "Kolesa",
+        "owner": "../imgs/kolesa.png",
+        "problems": [
+          {
+            "name": "Kolesa 1",
+            "content": [
+              "FIRST Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mattis erat a nisi dignissim, vel lacinia quam sollicitudin. Etiam ut risus sed risus egestas tristique id in erat. Aliquam id condimentum tellus, sed scelerisque quam. In ut est non elit finibus facilisis. Sed sed turpis purus. Aliquam euarcu vitae sapien vulputate interdum eget fringilla turpis. Aliquam lobortis libero vel lectus egestas luctus.Morbi egestas vitae tellus quis condimentum. Sed blandit tempor metus, vitae fringilla ipsum dapibus in.Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi ut misuscipit, auctor orci sed, feugiat magna. Etiam ut venenatis sapien.",
+              "FIRST Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mattis erat a nisi dignissim, vel lacinia quam sollicitudin. Etiam ut risus sed risus egestas tristique id in erat. Aliquam id condimentum tellus, sed scelerisque quam. In ut est non elit finibus facilisis. Sed sed turpis purus. Aliquam euarcu vitae sapien vulputate interdum eget fringilla turpis. Aliquam lobortis libero vel lectus egestas luctus.Morbi egestas vitae tellus quis condimentum. Sed blandit tempor metus, vitae fringilla ipsum dapibus in.Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi ut misuscipit, auctor orci sed, feugiat magna. Etiam ut venenatis sapien."
+            ]
+          },
+          {
+            "name": "Kolesa 2",
+            "content": [
+              "SECOND Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mattis erat a nisi dignissim, vel lacinia quam sollicitudin. Etiam ut risus sed risus egestas tristique id in erat. Aliquam id condimentum tellus, sed scelerisque quam. In ut est non elit finibus facilisis. Sed sed turpis purus. Aliquam euarcu vitae sapien vulputate interdum eget fringilla turpis. Aliquam lobortis libero vel lectus egestas luctus.Morbi egestas vitae tellus quis condimentum. Sed blandit tempor metus, vitae fringilla ipsum dapibus in.Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi ut misuscipit, auctor orci sed, feugiat magna. Etiam ut venenatis sapien.",
+              "SECOND Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mattis erat a nisi dignissim, vel lacinia quam sollicitudin. Etiam ut risus sed risus egestas tristique id in erat. Aliquam id condimentum tellus, sed scelerisque quam. In ut est non elit finibus facilisis. Sed sed turpis purus. Aliquam euarcu vitae sapien vulputate interdum eget fringilla turpis. Aliquam lobortis libero vel lectus egestas luctus.Morbi egestas vitae tellus quis condimentum. Sed blandit tempor metus, vitae fringilla ipsum dapibus in.Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi ut misuscipit, auctor orci sed, feugiat magna. Etiam ut venenatis sapien."
+            ]
+          },
+          {
+            "name": "Kolesa 3",
+            "content": [
+              "THIRD Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mattis erat a nisi dignissim, vel lacinia quam sollicitudin. Etiam ut risus sed risus egestas tristique id in erat. Aliquam id condimentum tellus, sed scelerisque quam. In ut est non elit finibus facilisis. Sed sed turpis purus. Aliquam euarcu vitae sapien vulputate interdum eget fringilla turpis. Aliquam lobortis libero vel lectus egestas luctus.Morbi egestas vitae tellus quis condimentum. Sed blandit tempor metus, vitae fringilla ipsum dapibus in.Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi ut misuscipit, auctor orci sed, feugiat magna. Etiam ut venenatis sapien.",
+              "THIRD Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mattis erat a nisi dignissim, vel lacinia quam sollicitudin. Etiam ut risus sed risus egestas tristique id in erat. Aliquam id condimentum tellus, sed scelerisque quam. In ut est non elit finibus facilisis. Sed sed turpis purus. Aliquam euarcu vitae sapien vulputate interdum eget fringilla turpis. Aliquam lobortis libero vel lectus egestas luctus.Morbi egestas vitae tellus quis condimentum. Sed blandit tempor metus, vitae fringilla ipsum dapibus in.Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi ut misuscipit, auctor orci sed, feugiat magna. Etiam ut venenatis sapien."
+            ]
+          }
+        ],
+        "prizes": "Kolesa prize"
+      }
+    ]
+  }
+}
