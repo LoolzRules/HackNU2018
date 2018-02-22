@@ -1,8 +1,11 @@
 *
+!fonts
 !imgs
 !styles
 !views
+!fonts/*
 !imgs/*
 !styles/*
 !views/*
 !.gitignore
+imgs/Footer.jpg
