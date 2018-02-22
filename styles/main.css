@@ -326,8 +326,8 @@ img {
 }
 
 #footer > table > tbody > tr > td:nth-child(2),
-#footer > table > tbody > tr > td:nth-child(3),
-#footer > table > tbody > tr > td:nth-child(4) {
+#footer > table > tbody > tr > td:nth-child(3)/*,
+#footer > table > tbody > tr > td:nth-child(4)*/ {
     background-image: url("../imgs/Icons.png");
     background-size: 32px 96px;
     background-repeat: no-repeat;
@@ -342,9 +342,9 @@ img {
 #footer > table > tbody > tr > td:nth-child(3) {
     background-position: 0 -32px;
 }
-#footer > table > tbody > tr > td:nth-child(4) {
-    background-position: 0 -64px;
-}
+/*#footer > table > tbody > tr > td:nth-child(4) {*/
+    /*background-position: 0 -64px;*/
+/*}*/
 
 #footer > table > tbody > tr > td > a {
     display: block;
