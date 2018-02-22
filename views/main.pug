@@ -1,3 +1,8 @@
+- var content_about = info.content_about;
+- var content_workshops = info.content_workshops;
+- var content_timetable = info.content_timetable;
+- var content_sections = info.content_sections;
+
 doctype html
 html(lang='en')
     head
@@ -65,6 +70,7 @@ html(lang='en')
                                 .problem_content
                                     each paragraph in problem.content
                                         p= paragraph
+                                    p= "Number of participants: "+responses[section.name][problem.name]
                         .section_prizes
                             p= section.prizes
             #footer

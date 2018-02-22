@@ -251,16 +251,6 @@ img {
     margin-top: 32px;
 }
 
-.problem_content {
-    display: none;
-    border: 2px solid var(--darker-gray);
-    background-color: var(--light-gray);
-    padding: 16px;
-
-    border-bottom-left-radius: 8px;
-    border-bottom-right-radius: 8px;
-}
-
 .problem_tab {
     display: none;
 }
@@ -299,6 +289,22 @@ img {
 .problem_tab:nth-of-type(5):checked ~ .problem_content:nth-of-type(5),
 .problem_tab:nth-of-type(6):checked ~ .problem_content:nth-of-type(6) {
     display: block;
+}
+
+.problem_content {
+    display: none;
+    border: 2px solid var(--darker-gray);
+    background-color: var(--light-gray);
+    padding: 16px;
+
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.problem_content p:last-child {
+    margin-top: 16px;
+    font-family: Montserrat;
+    font-style: unset;
 }
 
 #footer {

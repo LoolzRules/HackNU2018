@@ -1,6 +1,9 @@
 {
   "name": "Landing_Hackaton",
   "version": "0.5.0",
+  "scripts": {
+    "start": "node server.js"
+  },
   "dependencies": {
     "body-parser": "^1.18.2",
     "express": "^4.16.2",
