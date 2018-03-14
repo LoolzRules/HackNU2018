@@ -5,64 +5,64 @@
   ],
   "content_workshops": [
     {
-      "name": "Workshop #1",
-      "date": "Feb 25"
+      "name": "Евгений Шутилин. Место: TBA",
+      "date": "Март 27. 19:00"
     },
     {
-      "name": "Workshop #2",
-      "date": "Mar 11"
-    },
-    {
-      "name": "Workshop #3",
-      "date": "Mar 18"
+      "name": "Андей Шевченко. Место: TBA",
+      "date": "Март 29. 19:00"
     }
   ],
   "content_timetable": [
     {
-      "date": "Day 1 - Mar 31",
+      "date": "День 1 - Март 31",
       "timetable": [
         {
-          "time": "11.00 - 12.00",
-          "name": "Registration"
+          "time": "10:00 - 12:00",
+          "name": "Регистрация участников"
         },
         {
-          "time": "12.00 - 13:00",
-          "name": "Opening"
+          "time": "12:00 - 13:00",
+          "name": "Церемония открытия"
         },
         {
-          "time": "13.00 - 00:00",
-          "name": "Coding"
+          "time": "13:00 - 00:00",
+          "name": "24-часовой хакатон"
         }
       ]
     },
     {
-      "date": "Day 1 - Mar 31",
+      "date": "День 2 - Апрель 1",
       "timetable": [
         {
-          "time": "00.00 - 13.00",
-          "name": "Coding"
+          "time": "00:00 - 13:00",
+          "name": "24-часовой хакатон"
         },
         {
-          "time": "13.00 - 15:00",
-          "name": "Presentations"
+          "time": "13:00 - 15:00",
+          "name": "Презентация работ"
         },
         {
-          "time": "15.00 - 15:30",
-          "name": "Break"
+          "time": "15:00 - 15:30",
+          "name": "Перерыв"
         },
         {
-          "time": "15.30 - 16:00",
-          "name": "Judge time"
+          "time": "15:30 - 17:30",
+          "name": "Презентация работ"
         },
         {
-          "time": "16.00 - 16:30",
-          "name": "Closing"
+          "time": "17:30 - 18:00",
+          "name": "Судейство"
+        },
+        {
+          "time": "18:00 - 18:30",
+          "name": "Церемония закрытия"
         }
       ]
     }
   ],
   "content_sections": {
-    "info": "Participants are allowed to attend only to one problem at the same time.",
+    "info": "Команды могут зарегестрироваться на участие на одну задачу.",
     "sections": [
       {
         "name": "ZeroToOneLabs",
@@ -71,54 +71,36 @@
           {
             "name": "ZeroToOneLabs 1",
             "content": [
-              "FIRST Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mattis erat a nisi dignissim, vel lacinia quam sollicitudin. Etiam ut risus sed risus egestas tristique id in erat. Aliquam id condimentum tellus, sed scelerisque quam. In ut est non elit finibus facilisis. Sed sed turpis purus. Aliquam euarcu vitae sapien vulputate interdum eget fringilla turpis. Aliquam lobortis libero vel lectus egestas luctus.Morbi egestas vitae tellus quis condimentum. Sed blandit tempor metus, vitae fringilla ipsum dapibus in.Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi ut misuscipit, auctor orci sed, feugiat magna. Etiam ut venenatis sapien.",
-              "FIRST Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mattis erat a nisi dignissim, vel lacinia quam sollicitudin. Etiam ut risus sed risus egestas tristique id in erat. Aliquam id condimentum tellus, sed scelerisque quam. In ut est non elit finibus facilisis. Sed sed turpis purus. Aliquam euarcu vitae sapien vulputate interdum eget fringilla turpis. Aliquam lobortis libero vel lectus egestas luctus.Morbi egestas vitae tellus quis condimentum. Sed blandit tempor metus, vitae fringilla ipsum dapibus in.Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi ut misuscipit, auctor orci sed, feugiat magna. Etiam ut venenatis sapien."
-            ]
-          },
-          {
-            "name": "ZeroToOneLabs 2",
-            "content": [
-              "SECOND Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mattis erat a nisi dignissim, vel lacinia quam sollicitudin. Etiam ut risus sed risus egestas tristique id in erat. Aliquam id condimentum tellus, sed scelerisque quam. In ut est non elit finibus facilisis. Sed sed turpis purus. Aliquam euarcu vitae sapien vulputate interdum eget fringilla turpis. Aliquam lobortis libero vel lectus egestas luctus.Morbi egestas vitae tellus quis condimentum. Sed blandit tempor metus, vitae fringilla ipsum dapibus in.Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi ut misuscipit, auctor orci sed, feugiat magna. Etiam ut venenatis sapien.",
-              "SECOND Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mattis erat a nisi dignissim, vel lacinia quam sollicitudin. Etiam ut risus sed risus egestas tristique id in erat. Aliquam id condimentum tellus, sed scelerisque quam. In ut est non elit finibus facilisis. Sed sed turpis purus. Aliquam euarcu vitae sapien vulputate interdum eget fringilla turpis. Aliquam lobortis libero vel lectus egestas luctus.Morbi egestas vitae tellus quis condimentum. Sed blandit tempor metus, vitae fringilla ipsum dapibus in.Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi ut misuscipit, auctor orci sed, feugiat magna. Etiam ut venenatis sapien."
-            ]
-          },
-          {
-            "name": "ZeroToOneLabs 3",
-            "content": [
-              "THIRD Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mattis erat a nisi dignissim, vel lacinia quam sollicitudin. Etiam ut risus sed risus egestas tristique id in erat. Aliquam id condimentum tellus, sed scelerisque quam. In ut est non elit finibus facilisis. Sed sed turpis purus. Aliquam euarcu vitae sapien vulputate interdum eget fringilla turpis. Aliquam lobortis libero vel lectus egestas luctus.Morbi egestas vitae tellus quis condimentum. Sed blandit tempor metus, vitae fringilla ipsum dapibus in.Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi ut misuscipit, auctor orci sed, feugiat magna. Etiam ut venenatis sapien.",
-              "THIRD Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mattis erat a nisi dignissim, vel lacinia quam sollicitudin. Etiam ut risus sed risus egestas tristique id in erat. Aliquam id condimentum tellus, sed scelerisque quam. In ut est non elit finibus facilisis. Sed sed turpis purus. Aliquam euarcu vitae sapien vulputate interdum eget fringilla turpis. Aliquam lobortis libero vel lectus egestas luctus.Morbi egestas vitae tellus quis condimentum. Sed blandit tempor metus, vitae fringilla ipsum dapibus in.Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi ut misuscipit, auctor orci sed, feugiat magna. Etiam ut venenatis sapien."
+              "Написать приложение для Назарбаев Университета, которое будет решать/облегчать те или иные аспекты жизни студентов. Основным требованием является разработка приложения на технологии blockstack.org"
             ]
           }
         ],
-        "prizes": "ZeroToOneLabs prize"
+        "prizes": "1 место - 60'000 тг. 2 место - 40'000 тг. 3 место - утешительный приз."
       },
       {
-        "name": "Carca",
+        "name": "CAICA",
         "owner": "../imgs/caica.png",
         "problems": [
           {
-            "name": "Carca 1",
+            "name": "CAICA 1",
             "content": [
-              "FIRST Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mattis erat a nisi dignissim, vel lacinia quam sollicitudin. Etiam ut risus sed risus egestas tristique id in erat. Aliquam id condimentum tellus, sed scelerisque quam. In ut est non elit finibus facilisis. Sed sed turpis purus. Aliquam euarcu vitae sapien vulputate interdum eget fringilla turpis. Aliquam lobortis libero vel lectus egestas luctus.Morbi egestas vitae tellus quis condimentum. Sed blandit tempor metus, vitae fringilla ipsum dapibus in.Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi ut misuscipit, auctor orci sed, feugiat magna. Etiam ut venenatis sapien.",
-              "FIRST Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mattis erat a nisi dignissim, vel lacinia quam sollicitudin. Etiam ut risus sed risus egestas tristique id in erat. Aliquam id condimentum tellus, sed scelerisque quam. In ut est non elit finibus facilisis. Sed sed turpis purus. Aliquam euarcu vitae sapien vulputate interdum eget fringilla turpis. Aliquam lobortis libero vel lectus egestas luctus.Morbi egestas vitae tellus quis condimentum. Sed blandit tempor metus, vitae fringilla ipsum dapibus in.Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi ut misuscipit, auctor orci sed, feugiat magna. Etiam ut venenatis sapien."
+              "Участникам дан сайт, на котором реализована функция регистрация команды. На сайте есть счетчик, при нажатии на кнопку, команде начисляется +1 очко (к примеру). Для активации функции счетчика участникам необходимо обойти google captcha: 1) Я не робот; 2) Выделение подходящих под условие областей фотографии."
             ]
           },
           {
-            "name": "Carca 2",
+            "name": "CAICA 2",
             "content": [
-              "SECOND Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mattis erat a nisi dignissim, vel lacinia quam sollicitudin. Etiam ut risus sed risus egestas tristique id in erat. Aliquam id condimentum tellus, sed scelerisque quam. In ut est non elit finibus facilisis. Sed sed turpis purus. Aliquam euarcu vitae sapien vulputate interdum eget fringilla turpis. Aliquam lobortis libero vel lectus egestas luctus.Morbi egestas vitae tellus quis condimentum. Sed blandit tempor metus, vitae fringilla ipsum dapibus in.Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi ut misuscipit, auctor orci sed, feugiat magna. Etiam ut venenatis sapien.",
-              "SECOND Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mattis erat a nisi dignissim, vel lacinia quam sollicitudin. Etiam ut risus sed risus egestas tristique id in erat. Aliquam id condimentum tellus, sed scelerisque quam. In ut est non elit finibus facilisis. Sed sed turpis purus. Aliquam euarcu vitae sapien vulputate interdum eget fringilla turpis. Aliquam lobortis libero vel lectus egestas luctus.Morbi egestas vitae tellus quis condimentum. Sed blandit tempor metus, vitae fringilla ipsum dapibus in.Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi ut misuscipit, auctor orci sed, feugiat magna. Etiam ut venenatis sapien."
+              "Реализовать обфускатор бинарного приложения, позволяющий обойти обнаружение антивирусным ПО. Обфусцированное приложение должно полностью сохранять свой исходный функционал, но при этом должно также успешно пройти проверку тремя распространенными в Казахстане антивирусными программными средствами: Kaspersky, Eset, Dr. Web. Размер приложения, полученного в результате обфускации, не должен превышать размер исходного бинарного файла более чем в два раза. Обфускатор должен учитывать наличие сигнатурного анализа в указанных антивирусных программных средствах, а также приблизиться к обходу проактивной защиты."
             ]
           },
           {
-            "name": "Carca 3",
+            "name": "CAICA 3",
             "content": [
-              "THIRD Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mattis erat a nisi dignissim, vel lacinia quam sollicitudin. Etiam ut risus sed risus egestas tristique id in erat. Aliquam id condimentum tellus, sed scelerisque quam. In ut est non elit finibus facilisis. Sed sed turpis purus. Aliquam euarcu vitae sapien vulputate interdum eget fringilla turpis. Aliquam lobortis libero vel lectus egestas luctus.Morbi egestas vitae tellus quis condimentum. Sed blandit tempor metus, vitae fringilla ipsum dapibus in.Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi ut misuscipit, auctor orci sed, feugiat magna. Etiam ut venenatis sapien.",
-              "THIRD Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mattis erat a nisi dignissim, vel lacinia quam sollicitudin. Etiam ut risus sed risus egestas tristique id in erat. Aliquam id condimentum tellus, sed scelerisque quam. In ut est non elit finibus facilisis. Sed sed turpis purus. Aliquam euarcu vitae sapien vulputate interdum eget fringilla turpis. Aliquam lobortis libero vel lectus egestas luctus.Morbi egestas vitae tellus quis condimentum. Sed blandit tempor metus, vitae fringilla ipsum dapibus in.Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi ut misuscipit, auctor orci sed, feugiat magna. Etiam ut venenatis sapien."
+              "Участникам необходимо реализовать веб-приложение с функционалом ответа на вопросы про популярную в Казахстане тему на сегодняшний день. Чтобы пройти тестирование пользователям необходимо иметь личную страницу в социальной сети. Данное веб-приложение должно собирать персональные данные пользователей, которые проходили тестирование, с их страниц в социальной сети."
             ]
           }
         ],
-        "prizes": "Carca prize"
+        "prizes": "TBA"
       },
       {
         "name": "Chocolife",
@@ -127,26 +109,36 @@
           {
             "name": "Chocolife 1",
             "content": [
-              "FIRST Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mattis erat a nisi dignissim, vel lacinia quam sollicitudin. Etiam ut risus sed risus egestas tristique id in erat. Aliquam id condimentum tellus, sed scelerisque quam. In ut est non elit finibus facilisis. Sed sed turpis purus. Aliquam euarcu vitae sapien vulputate interdum eget fringilla turpis. Aliquam lobortis libero vel lectus egestas luctus.Morbi egestas vitae tellus quis condimentum. Sed blandit tempor metus, vitae fringilla ipsum dapibus in.Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi ut misuscipit, auctor orci sed, feugiat magna. Etiam ut venenatis sapien.",
-              "FIRST Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mattis erat a nisi dignissim, vel lacinia quam sollicitudin. Etiam ut risus sed risus egestas tristique id in erat. Aliquam id condimentum tellus, sed scelerisque quam. In ut est non elit finibus facilisis. Sed sed turpis purus. Aliquam euarcu vitae sapien vulputate interdum eget fringilla turpis. Aliquam lobortis libero vel lectus egestas luctus.Morbi egestas vitae tellus quis condimentum. Sed blandit tempor metus, vitae fringilla ipsum dapibus in.Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi ut misuscipit, auctor orci sed, feugiat magna. Etiam ut venenatis sapien."
+              "Написать бота для поиска авиабилетов в любом мессенждере."
             ]
           },
           {
             "name": "Chocolife 2",
             "content": [
-              "SECOND Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mattis erat a nisi dignissim, vel lacinia quam sollicitudin. Etiam ut risus sed risus egestas tristique id in erat. Aliquam id condimentum tellus, sed scelerisque quam. In ut est non elit finibus facilisis. Sed sed turpis purus. Aliquam euarcu vitae sapien vulputate interdum eget fringilla turpis. Aliquam lobortis libero vel lectus egestas luctus.Morbi egestas vitae tellus quis condimentum. Sed blandit tempor metus, vitae fringilla ipsum dapibus in.Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi ut misuscipit, auctor orci sed, feugiat magna. Etiam ut venenatis sapien.",
-              "SECOND Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mattis erat a nisi dignissim, vel lacinia quam sollicitudin. Etiam ut risus sed risus egestas tristique id in erat. Aliquam id condimentum tellus, sed scelerisque quam. In ut est non elit finibus facilisis. Sed sed turpis purus. Aliquam euarcu vitae sapien vulputate interdum eget fringilla turpis. Aliquam lobortis libero vel lectus egestas luctus.Morbi egestas vitae tellus quis condimentum. Sed blandit tempor metus, vitae fringilla ipsum dapibus in.Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi ut misuscipit, auctor orci sed, feugiat magna. Etiam ut venenatis sapien."
+              "Написать бота, для трекинга цены по определенному направлению в любом мессендрежу."
             ]
           },
           {
             "name": "Chocolife 3",
             "content": [
-              "THIRD Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mattis erat a nisi dignissim, vel lacinia quam sollicitudin. Etiam ut risus sed risus egestas tristique id in erat. Aliquam id condimentum tellus, sed scelerisque quam. In ut est non elit finibus facilisis. Sed sed turpis purus. Aliquam euarcu vitae sapien vulputate interdum eget fringilla turpis. Aliquam lobortis libero vel lectus egestas luctus.Morbi egestas vitae tellus quis condimentum. Sed blandit tempor metus, vitae fringilla ipsum dapibus in.Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi ut misuscipit, auctor orci sed, feugiat magna. Etiam ut venenatis sapien.",
-              "THIRD Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mattis erat a nisi dignissim, vel lacinia quam sollicitudin. Etiam ut risus sed risus egestas tristique id in erat. Aliquam id condimentum tellus, sed scelerisque quam. In ut est non elit finibus facilisis. Sed sed turpis purus. Aliquam euarcu vitae sapien vulputate interdum eget fringilla turpis. Aliquam lobortis libero vel lectus egestas luctus.Morbi egestas vitae tellus quis condimentum. Sed blandit tempor metus, vitae fringilla ipsum dapibus in.Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi ut misuscipit, auctor orci sed, feugiat magna. Etiam ut venenatis sapien."
+              "Концепт удобного поиска авиабилетов для любой удобной мессенждере."
+            ]
+          },
+          {
+            "name": "Chocolife 4",
+            "content": [
+              "Любая реализованная идея, которая может качественно дополнить серсив Chocotravel.com"
+            ]
+          },
+          {
+            "name": "Chocolife 5",
+            "content": [
+              "Для выявления доставляет ли заведение определенному клиенту по его координатам и получения условий доставки необходима сущность квадрата(полигон) доставки. Для того, чтобы создавать квадраты доставки необходим удобный функционал создания этих квадратов. Функционал должен учесть максимум потребностей заведений так как от местоположения клиента может меняться практически всё. Например, у заведения может быть несколько точек доставки и соответственно различные условия их работы, у заведения может изменяться меню в зависимости от этих точек и т.д.",
+              "*Прикрепленный файл*"
             ]
           }
         ],
-        "prizes": "Chocolife prize"
+        "prizes": "TBA."
       },
       {
         "name": "Kolesa",
@@ -155,26 +147,18 @@
           {
             "name": "Kolesa 1",
             "content": [
-              "FIRST Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mattis erat a nisi dignissim, vel lacinia quam sollicitudin. Etiam ut risus sed risus egestas tristique id in erat. Aliquam id condimentum tellus, sed scelerisque quam. In ut est non elit finibus facilisis. Sed sed turpis purus. Aliquam euarcu vitae sapien vulputate interdum eget fringilla turpis. Aliquam lobortis libero vel lectus egestas luctus.Morbi egestas vitae tellus quis condimentum. Sed blandit tempor metus, vitae fringilla ipsum dapibus in.Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi ut misuscipit, auctor orci sed, feugiat magna. Etiam ut venenatis sapien.",
-              "FIRST Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mattis erat a nisi dignissim, vel lacinia quam sollicitudin. Etiam ut risus sed risus egestas tristique id in erat. Aliquam id condimentum tellus, sed scelerisque quam. In ut est non elit finibus facilisis. Sed sed turpis purus. Aliquam euarcu vitae sapien vulputate interdum eget fringilla turpis. Aliquam lobortis libero vel lectus egestas luctus.Morbi egestas vitae tellus quis condimentum. Sed blandit tempor metus, vitae fringilla ipsum dapibus in.Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi ut misuscipit, auctor orci sed, feugiat magna. Etiam ut venenatis sapien."
+              "В компании Колеса Крыша Маркет есть 3 интересных продукта, которыми пользуются многие казахстанцы. И в каждом из них множество услуг, которые надо предлагать пользователям, которым они действительно нужны. Предсказать какая именно услуга нужна конкретному пользователю целое искусство. Предлагаем вам сделать первые шаги в данной области и попытаться решить одну из самых распространённых рабочих задач data scientist-а: прогнозирование покупки определенной услуги. Данная задача является задачей бинарной классификацией."
             ]
           },
           {
             "name": "Kolesa 2",
             "content": [
-              "SECOND Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mattis erat a nisi dignissim, vel lacinia quam sollicitudin. Etiam ut risus sed risus egestas tristique id in erat. Aliquam id condimentum tellus, sed scelerisque quam. In ut est non elit finibus facilisis. Sed sed turpis purus. Aliquam euarcu vitae sapien vulputate interdum eget fringilla turpis. Aliquam lobortis libero vel lectus egestas luctus.Morbi egestas vitae tellus quis condimentum. Sed blandit tempor metus, vitae fringilla ipsum dapibus in.Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi ut misuscipit, auctor orci sed, feugiat magna. Etiam ut venenatis sapien.",
-              "SECOND Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mattis erat a nisi dignissim, vel lacinia quam sollicitudin. Etiam ut risus sed risus egestas tristique id in erat. Aliquam id condimentum tellus, sed scelerisque quam. In ut est non elit finibus facilisis. Sed sed turpis purus. Aliquam euarcu vitae sapien vulputate interdum eget fringilla turpis. Aliquam lobortis libero vel lectus egestas luctus.Morbi egestas vitae tellus quis condimentum. Sed blandit tempor metus, vitae fringilla ipsum dapibus in.Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi ut misuscipit, auctor orci sed, feugiat magna. Etiam ut venenatis sapien."
-            ]
-          },
-          {
-            "name": "Kolesa 3",
-            "content": [
-              "THIRD Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mattis erat a nisi dignissim, vel lacinia quam sollicitudin. Etiam ut risus sed risus egestas tristique id in erat. Aliquam id condimentum tellus, sed scelerisque quam. In ut est non elit finibus facilisis. Sed sed turpis purus. Aliquam euarcu vitae sapien vulputate interdum eget fringilla turpis. Aliquam lobortis libero vel lectus egestas luctus.Morbi egestas vitae tellus quis condimentum. Sed blandit tempor metus, vitae fringilla ipsum dapibus in.Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi ut misuscipit, auctor orci sed, feugiat magna. Etiam ut venenatis sapien.",
-              "THIRD Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mattis erat a nisi dignissim, vel lacinia quam sollicitudin. Etiam ut risus sed risus egestas tristique id in erat. Aliquam id condimentum tellus, sed scelerisque quam. In ut est non elit finibus facilisis. Sed sed turpis purus. Aliquam euarcu vitae sapien vulputate interdum eget fringilla turpis. Aliquam lobortis libero vel lectus egestas luctus.Morbi egestas vitae tellus quis condimentum. Sed blandit tempor metus, vitae fringilla ipsum dapibus in.Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi ut misuscipit, auctor orci sed, feugiat magna. Etiam ut venenatis sapien."
+              "Необходимо разработать приложение Библиотека на платформах iOS или Android содержащее следующие экраны:\n1. Экран авторизации.\n2. Личный кабинет пользователя.\n3. Список книг в библиотеке с возможностью фильтрации, выбора категории.\n4. Страница подробного описания книги.\n5. Возможность взять доступную книгу в библиотеке.",
+              "*Прикрепленный файл*"
             ]
           }
         ],
-        "prizes": "Kolesa prize"
+        "prizes": "TBA"
       }
     ]
   }

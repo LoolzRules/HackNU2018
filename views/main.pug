@@ -27,7 +27,7 @@ html(lang='en')
                     each elem in content_sections.sections
                         img(src= elem.owner)
             #workshops.content
-                h3 Workshops
+                h3 Воркшопы
                 table
                     tbody
                         each workshop in content_workshops
@@ -35,7 +35,7 @@ html(lang='en')
                                 td= workshop.date
                                 td= workshop.name
             #timetable.content
-                h3 Timetable
+                h3 Расписание
                 each table in content_timetable
                     table.days
                         thead
@@ -48,7 +48,7 @@ html(lang='en')
                                     td= time_event.name
             #sections.content
                 #section_header
-                    h3 Sections
+                    h3 Задачи
                 p= content_sections.info
 
                 - for ( var i=1; i<=content_sections.sections.length; i++ )
