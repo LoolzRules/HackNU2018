@@ -2,6 +2,7 @@
 - var content_workshops = info.content_workshops;
 - var content_timetable = info.content_timetable;
 - var content_sections = info.content_sections;
+- var content_supporters = info.content_supporters;
 
 doctype html
 html(lang='en')
@@ -15,12 +16,12 @@ html(lang='en')
             #logo
                 div
                     h1.boldHeader ⟨HackNU⟩
-                    input.register(type='button', value='Register')
+                    input.register(type='button', value='Регистрация')
             #header
                 h2.boldHeader ⟨HackNU⟩
-                input.register(type='button', value='Register')
+                input.register(type='button', value='Регистрация')
             #about.content
-                h3 About
+                h3 О нас
                 each par in content_about
                     p= par
                 #sponsors
@@ -49,7 +50,7 @@ html(lang='en')
             #sections.content
                 #section_header
                     h3 Задачи
-                p= content_sections.info
+                    p= content_sections.info
 
                 - for ( var i=1; i<=content_sections.sections.length; i++ )
                     - var section = content_sections.sections[i-1];
@@ -70,9 +71,20 @@ html(lang='en')
                                 .problem_content
                                     each paragraph in problem.content
                                         p= paragraph
-                                    p= "Number of participants: "+responses[section.name][problem.name]
+                                    if problem.files
+                                        each file in problem.files
+                                            br
+                                            a(href=file.path target="blank")= file.name
+                                    p= "Количество зарегистрированных участников: "+responses[section.name][+problem.name -1]
                         .section_prizes
                             p= section.prizes
+
+            .content
+                h3 Нас поддержали
+                #supporters
+                    each supporter in content_supporters
+                        img(src= supporter.path)
+
             #footer
                 table
                     tbody

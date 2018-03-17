@@ -103,7 +103,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 img {
-    margin: 10px;
+    margin: 32px;
 }
 
 #wrapper {
@@ -115,7 +115,7 @@ img {
 }
 
 #wrapper > div {
-    padding: 16px;
+    padding: 32px;
 }
 
 .register {
@@ -125,7 +125,7 @@ img {
     color: var(--light-gray);
     background: var(--main-accent);
     cursor: pointer;
-    border-radius: 8px;
+    border-radius: 4px;
 }
 
 .register:hover {
@@ -166,6 +166,7 @@ img {
 
 #header {
     width: 100%;
+    position: -webkit-sticky;
     position: sticky;
     top: 0;
     height: 56px;
@@ -198,11 +199,12 @@ img {
 }
 
 .content h3 {
-    padding-top: 16px;
+    padding: 16px;
     font-weight: bold;
     font-size: 40px;
     line-height: 64px;
     text-decoration: none;
+    text-align: center;
 }
 
 
@@ -213,7 +215,7 @@ img {
 }
 
 .content > table {
-    margin: 0 auto;
+    margin: 16px auto;
 }
 
 .content > table > thead {
@@ -240,15 +242,38 @@ img {
     text-align: right;
 }
 
-#sponsors, .section {
+#sponsors, .section, #supporters {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     flex-grow: 2;
 }
 
+#section_header {
+    padding: 32px;
+    margin: 0 -32px;
+    background-color: #3498db;
+    color: white;
+    text-align: center;
+}
+
+.section::after {
+    content: "";
+    width: 100%;
+    background-color: #3498db;
+    height: 2px;
+}
+
 .section {
-    margin-top: 32px;
+    /*margin-top: 32px;*/
+}
+
+.section:nth-child(2n-1) {
+    background-color: #f8f8f8;
+}
+
+.section_problems {
+    width: 100%;
 }
 
 .problem_tab {
@@ -260,8 +285,6 @@ img {
     background-color: var(--light-gray);
     padding: 8px 16px;
 
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
     cursor: pointer;
 
     font-family: Montserrat;
@@ -279,7 +302,7 @@ img {
 }
 
 .section_prizes {
-    margin-top: 16px;
+    margin: 16px 0 32px 0;
 }
 
 .problem_tab:nth-of-type(1):checked ~ .problem_content:nth-of-type(1),
@@ -296,9 +319,6 @@ img {
     border: 2px solid var(--darker-gray);
     background-color: var(--light-gray);
     padding: 16px;
-
-    border-bottom-left-radius: 8px;
-    border-bottom-right-radius: 8px;
 }
 
 .problem_content p:last-child {
