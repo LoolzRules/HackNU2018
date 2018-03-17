@@ -21,7 +21,7 @@ app.post( '/', ( req, res ) => {
   let response = req.body;
   console.log( response );
 
-  participantList[response.section][+response.problem -1]++;
+  participantList[response.section][+response.problem-1]++;
   res.send( "ok" );
 } );
 

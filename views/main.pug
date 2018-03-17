@@ -16,10 +16,11 @@ html(lang='en')
             #logo
                 div
                     h1.boldHeader ⟨HackNU⟩
-                    input.register(type='button', value='Регистрация')
+                    a.register(href="http://bit.ly/hacknu2018") Регистрация
             #header
                 h2.boldHeader ⟨HackNU⟩
-                input.register(type='button', value='Регистрация')
+                a.register(href="http://bit.ly/hacknu2018") Регистрация
+
             #about.content
                 h3 О нас
                 each par in content_about
@@ -75,7 +76,7 @@ html(lang='en')
                                         each file in problem.files
                                             br
                                             a(href=file.path target="blank")= file.name
-                                    p= "Количество зарегистрированных участников: "+responses[section.name][+problem.name -1]
+                                    p= "Количество зарегистрированных участников: "+responses[section.name][+problem.name-1]
                         .section_prizes
                             p= section.prizes
 

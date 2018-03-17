@@ -88,6 +88,14 @@ table {
 
 /* http://meyerweb.com/eric/tools/css/reset/ */
 
+body * {
+    user-select: none;
+}
+
+.content * {
+    user-select: text;
+}
+
 body, input {
     font-family: OpenSans !important;
 }
@@ -119,6 +127,9 @@ img {
 }
 
 .register {
+    display: block;
+    width: fit-content;
+
     border: 0;
     text-decoration: none;
     text-transform: uppercase;
@@ -158,7 +169,6 @@ img {
 }
 
 #logo .register {
-    display: block;
     font-size: 40px;
     padding: 16px 24px;
     margin: auto;
@@ -242,7 +252,7 @@ img {
     text-align: right;
 }
 
-#sponsors, .section, #supporters {
+#sponsors, .section, #supporters, #footer {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -328,20 +338,19 @@ img {
 }
 
 #footer {
-    /*background-image: url("../imgs/Footer.svg");*/
     background-color: #7b1fa2;
     background-repeat: no-repeat;
     background-size: cover;
 
-    padding-left: 0!important;
-    padding-right: 0!important;
+    padding: 0!important;
 
     width: 100%;
     height: auto;
+
+    align-items: center;
 }
 
 #footer > table {
-    float: left;
     margin-left: 10%;
     color: var(--light-gray);
 }
@@ -379,8 +388,8 @@ img {
 }
 
 #creators {
-    float: right;
     width: auto;
+    margin: 32px;
     margin-right: 10%;
     color: var(--light-gray);
 }
@@ -419,12 +428,9 @@ img {
     }
 
     #footer > table {
-        margin-left: 16px;
+        margin-left: 0;
     }
 
-    #footer > div#creators {
-        margin-right: 16px;
-    }
 }
 
 @media (max-width: 768px) {
