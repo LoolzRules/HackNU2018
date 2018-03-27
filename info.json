@@ -1,7 +1,7 @@
 {
   "content_about": [
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mattis erat a nisi dignissim, vel lacinia quam sollicitudin. Etiam ut risus sed risus egestas tristique id in erat. Aliquam id condimentum tellus, sed scelerisque quam. In ut est non elit finibus facilisis. Sed sed turpis purus. Aliquam eu arcu vitae sapien vulputate interdum eget fringilla turpis. Aliquam lobortis libero vel lectus egestas luctus. Morbi egestas vitae tellus quis condimentum. Sed blandit tempor metus, vitae fringilla ipsum dapibus in. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi ut mi suscipit, auctor orci sed, feugiat magna. Etiam ut venenatis sapien.",
-    "Vestibulum tristique mollis dolor eget consequat. Fusce viverra finibus neque eget lobortis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean volutpat enim quam, eu dignissim metus faucibus laoreet. Quisque risus erat, vestibulum a erat quis, egestas pulvinar enim. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc nulla turpis, fermentum id iaculis a, iaculis id mauris. Vivamus nibh mauris, condimentum in placerat eu, mattis vitae erat. Vestibulum blandit ultricies mattis."
+    "HackNU - 24-часовой кодинг-марафон, в котором студенты со всего Казахстана смогут проявить себя решая задачи предоставленные Казахстанскими IT-компаниями Chocofamily, ZeroToOneLabs, Колёса|Крыша|Маркет и ЦАРКА. Главным критерием для определения победителей хакатона будет качество самого технического решения. Победители будут определяться специальным жюри, в которое будут входить представители компаний предоставляющих задачи. В течении 24 часов участникам будет доступно менторство от организаторов и самих компаний. Хакатон будет проводится на территории кампуса Назарбаев Университета. Всем участникам предоставляется питание и подарки от организаторов.",
+    "Для того, чтобы участвовать в хакатоне нужно зарегистрировать команду и выбрать задачу. Описания задач и количество участников доступны ниже."
   ],
   "content_workshops": [
     {
@@ -13,7 +13,7 @@
       "date": "4 Апреля, 19:00"
     },
     {
-      "name": "Андей Шевченко. Место: TBA",
+      "name": "Андрей Шевченко. Место: TBA",
       "date": "5 Апреля, 19:00"
     }
   ],
