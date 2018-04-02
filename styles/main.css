@@ -311,6 +311,10 @@ img {
     color: var(--light-gray);
 }
 
+.section_description {
+    margin: 16px 0 32px 0;
+}
+
 .section_prizes {
     margin: 16px 0 32px 0;
 }
