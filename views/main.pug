@@ -80,7 +80,8 @@ html(lang='en')
                       a(href=file.path target="blank")= file.name
                   p= "Количество зарегистрированных участников: "+responses[section.name][+problem.name-1]
             .section_prizes
-              p= section.prizes
+              each paragraph in section.prizes
+                p !{paragraph}
 
       .content
         h3 Нас поддержали
